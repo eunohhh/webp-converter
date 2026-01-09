@@ -1,16 +1,17 @@
 {
-  "name": "webp-converter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.7.0",
-  "dependencies": {
-    "sharp": "^0.34.1"
-  }
+	"name": "webp-converter",
+	"version": "1.0.0",
+	"description": "",
+	"main": "convert.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node convert.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"packageManager": "pnpm@10.7.0",
+	"dependencies": {
+		"sharp": "^0.34.1"
+	}
 }
